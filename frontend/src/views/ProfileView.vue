@@ -4,13 +4,13 @@
     <header class="relative bg-green-200 h-24 mt-12 p-4">
       <!-- Cover Image -->
       <div class="absolute inset-0">
-        <img src="https://via.placeholder.com/1200x300" alt="Cover" class="object-cover w-full h-full" />
+        <img src="https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-plain-dark-green-wallpaper-image_396569.jpg" alt="Cover" class="object-cover w-full h-full" />
       </div>
       <!-- Avatar and User Info -->
       <div class="absolute bottom-[-70px] left-8 flex items-center space-x-4">
         <!-- Avatar -->
         <div class="relative w-24 h-24 border-4 border-white rounded-full overflow-hidden shadow-lg">
-          <img :src="userAvatar" alt="Avatar" class="object-cover w-full h-full" />
+          <img src="https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133351928-stock-illustration-default-placeholder-man-and-woman.jpg" alt="Avatar" class="object-cover w-full h-full" />
           <button
             class="absolute bottom-2 right-2 w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"

@@ -3,7 +3,7 @@
     <!-- Avatar -->
     <div class="w-10 h-10 rounded-full bg-gray-400 overflow-hidden cursor-pointer border border-gray-500"
       @click="toggleDropdown">
-      <img :src="avatarUrl" alt="User Avatar" class="object-cover w-full h-full" />
+      <img src="https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133351928-stock-illustration-default-placeholder-man-and-woman.jpg" alt="User Avatar" class="object-cover w-full h-full" />
     </div>
 
     <!-- Dropdown Menu -->
@@ -12,7 +12,7 @@
         <!-- User Info -->
         <div class="flex items-center px-4 py-3 border-b border-gray-600">
           <div class="w-10 h-10 rounded-full bg-gray-500 overflow-hidden">
-            <img :src="avatarUrl" alt="User Avatar" class="object-cover w-full h-full" />
+            <img src="https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133351928-stock-illustration-default-placeholder-man-and-woman.jpg" alt="User Avatar" class="object-cover w-full h-full" />
           </div>
           <div class="ml-3">
             <p class="text-sm font-medium">{{ userName }}</p>

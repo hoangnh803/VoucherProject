@@ -23,11 +23,11 @@
         <!-- Header Section -->
         <header class="relative bg-green-200 h-24 mt-12 p-4">
             <div class="absolute inset-0">
-                <img src="https://via.placeholder.com/1200x300" alt="Cover" class="object-cover w-full h-full" />
+                <img src="https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-plain-dark-green-wallpaper-image_396569.jpg" alt="Cover" class="object-cover w-full h-full" />
             </div>
             <div class="absolute bottom-[-70px] left-8 flex items-center space-x-4">
                 <div class="relative w-24 h-24 border-4 border-white rounded-full overflow-hidden shadow-lg">
-                    <img :src="userAvatar" alt="Avatar" class="object-cover w-full h-full" />
+                    <img src="https://st3.depositphotos.com/9998432/13335/v/450/depositphotos_133351928-stock-illustration-default-placeholder-man-and-woman.jpg" alt="Avatar" class="object-cover w-full h-full" />
                 </div>
                 <div>
                     <h1 class="font-semibold text-black">{{ userName }}</h1>
