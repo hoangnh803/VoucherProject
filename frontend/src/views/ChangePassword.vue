@@ -55,7 +55,7 @@
           <li>
             <router-link to="/password-security"
               class="block py-2 px-4 text-green-600 bg-green-100 rounded-lg font-medium">
-              Change Password
+              Password & Security
             </router-link>
           </li>
         </ul>
