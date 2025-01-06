@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://voucherapp.me/api', 
+  baseURL: 'https://voucherapp.me/api', 
   headers: {
     'Content-Type': 'application/json',
   },
