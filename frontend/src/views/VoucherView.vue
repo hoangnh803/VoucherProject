@@ -149,7 +149,7 @@ export default {
         // Ánh xạ dữ liệu voucher
         mapCoupons(data) {
             return data.map((voucher, index) => ({
-                id: index + 1,
+                id: voucher.issuance_id,
                 name: voucher.voucher_name,
                 description: voucher.voucher_description,
                 discount_amount: voucher.discount_amount,

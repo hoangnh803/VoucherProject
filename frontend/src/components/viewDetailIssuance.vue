@@ -81,9 +81,10 @@ const voucher = ref({});
 // Fetch voucher details
 const loadVoucherDetails = async (id) => {
   try {
+    console.log('Fetching voucher details...', id);
     const response = await fetchInsurance(id);
     voucher.value = response.data.data;
-    console.log('Voucher details:', voucher.value);
+    console.log('Voucher details:', response);
   } catch (error) {
     console.error('Error fetching voucher details:', error);
   }
