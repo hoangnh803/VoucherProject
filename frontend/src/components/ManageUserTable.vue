@@ -159,8 +159,8 @@
             </td>
             <td class="w-28 px-6 py-4">
               <span class="px-2 py-1 text-sm rounded-full"
-              :class="user.status === 1 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'">
-              {{ user.status === 1 ? 'Active' : 'Blocked' }}
+              :class="user.status == 1 ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'">
+              {{ user.status == 1 ? 'Active' : 'Blocked' }}
               </span>
             </td>
             <td class="w-44 px-6 py-4 text-gray-500">{{ user.phone }}</td>
@@ -168,7 +168,7 @@
             <td class="w-28 px-6 py-4 text-gray-500">{{ user.date }}</td>
             <td class="w-40 px-6 py-4 text-gray-500">{{ user.activity }}</td>
             <td class="w-20 px-6 py-4">
-              <button class="text-red-600 hover:underline" v-if="user.status === 1" @click="blockUser(user.id)">
+              <button class="text-red-600 hover:underline" v-if="user.status == 1" @click="blockUser(user.id)">
                 Block
               </button>
               <button class="text-green-600 hover:underline" v-else @click="activateUser(user.id)">
@@ -204,6 +204,7 @@ onMounted(async () => {
   try {
     const response = await fetchUsers();  // API call to fetch users
     users.value = response.data;  // Set users from the response
+    console.log('Users:', users.value);
   } catch (error) {
     console.error('Error fetching users:', error);
   }

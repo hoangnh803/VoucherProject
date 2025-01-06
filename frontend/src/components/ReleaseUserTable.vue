@@ -112,7 +112,7 @@ onMounted(async () => {
 });
 
 // Filter active users
-const activeUsers = computed(() => users.value.filter((user) => user.status === 1 ));
+const activeUsers = computed(() => users.value.filter((user) => user.status == 1 ));
 
 // Filter and sort users
 const filteredAndSortedUsers = computed(() => {
